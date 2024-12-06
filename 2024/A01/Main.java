@@ -1,3 +1,5 @@
+package A01;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -20,7 +22,7 @@ public class Main {
     static void fillLists(List<Integer> leftList, List<Integer> rightList) {
         BufferedReader bufferedReader = null;
         try {
-            FileReader fileReader = new FileReader("/home/lutz/GitHub/advent-of-code/2024/input.txt");
+            FileReader fileReader = new FileReader("/home/lutz/GitHub/advent-of-code/2024/A01/input.txt");
             bufferedReader = new BufferedReader(fileReader);
     
             String line = bufferedReader.readLine();
